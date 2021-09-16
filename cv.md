@@ -13,3 +13,14 @@ I am 22. I have the education of an accountant. I worked in different jobs, but 
 * Git, GitHub
 * VS Code
 * Figma
+## **Code Example** ##
+```
+function highAndLow(numbers) {
+            let arr = numbers.split(' ');
+            let nums = [];
+            for (let n of arr) {
+                nums.push(+n)
+            }
+            return Math.max(...nums) + ' ' + Math.min(...nums);
+        }
+```
