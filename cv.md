@@ -24,3 +24,10 @@ function highAndLow(numbers) {
             return Math.max(...nums) + ' ' + Math.min(...nums);
         }
 ```
+## **Education** ## 
+* [CS50](https://www.youtube.com/playlist?list=PLawfWYMUziZqyUL5QDLVbe3j5BKWj42E5) video course
+* HTML, CSS, JS on the [MDN](https://developer.mozilla.org/en-US/docs/Learn/Front-end_web_developer)
+* JS tutorial on [learnjavascript.ru](https://learn.javascript.ru/)
+* [You Don't Know JS (Book Series)](https://github.com/azat-io/you-dont-know-js-ru)
+* JS on the [FreeCodeCamp](https://www.freecodecamp.org/learn)
+* RS Schools Course «JavaScript/Front-end. Stage 1»
