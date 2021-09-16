@@ -6,3 +6,10 @@
 * **Telegram**: @AnnyNov
 ## **About Me** ##
 I am 22. I have the education of an accountant. I worked in different jobs, but none of them brought me pleasure. I hope to find myself in programming and become a professional in my field.
+## **Skills** ##
+* HTML
+* CSS
+* JavaScript
+* Git, GitHub
+* VS Code
+* Figma
