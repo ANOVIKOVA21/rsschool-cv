@@ -31,3 +31,7 @@ function highAndLow(numbers) {
 * [You Don't Know JS (Book Series)](https://github.com/azat-io/you-dont-know-js-ru)
 * JS on the [FreeCodeCamp](https://www.freecodecamp.org/learn)
 * RS Schools Course «JavaScript/Front-end. Stage 1»
+## **Languages** ## 
+* Ukrainian - Native
+* Russian - Free
+* English - A1(almost A2)
