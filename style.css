@@ -87,13 +87,16 @@ h2 {
 }
 
 .skills {
-    max-width: 200px;
+    max-width: 300px;
     padding: 0 50px 5px 20px;
+    margin-right: 75px;
 }
 
 .skills ul {
-    list-style-type: disc;
+    list-style-type: none;
     margin-bottom: 5px;
+    text-decoration: underline;
+    padding: 0 5px 0 3px;
 }
 
 .education {
@@ -110,7 +113,17 @@ h2 {
 }
 
 .education_list a:hover {
-    /* color: rgb(124, 51, 51); */
     transform: scale(0.9);
     opacity: 0.2;
+}
+
+.languages {
+    max-width: 300px;
+    padding: 0 50px 5px 20px;
+}
+
+.languages ul {
+    list-style: none;
+    text-decoration: underline;
+    padding: 0 5px 15px 3px;
 }
