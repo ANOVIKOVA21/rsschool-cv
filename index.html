@@ -59,7 +59,21 @@
                 <li>Russian - Free</li>
                 <li>English - A1(almost A2)</li>
             </ul>
-
+        </section>
+        <section class="code">
+            <h2>Code Example</h2>
+            <code>
+                <pre>
+    function highAndLow(numbers) {
+        let arr = numbers.split(' ');
+        let nums = [];
+        for (let n of arr) {
+        nums.push(+n)
+        }
+        return Math.max(...nums) + ' ' + Math.min(...nums);
+    }
+            </pre>
+            </code>
         </section>
     </main>
 
