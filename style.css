@@ -7,14 +7,14 @@ body {
     margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
-    line-height: 1.2;
+    line-height: 1.5;
+    letter-spacing: 0.3px;
     color: black;
     background: #E5E5E5;
 }
 
 .header {
-    /* margin: 20px; */
-    padding: 20px 10px 10px 25px;
+    padding: 20px 10px 10px 35px;
     background: white;
 }
 
@@ -65,12 +65,16 @@ body {
 }
 
 main {
+    display: flex;
+    flex-wrap: wrap;
     padding: 20px 10px 10px 15px;
     background: white;
+    justify-content: space-between;
 }
 
 .about_me {
     max-width: 450px;
+    padding: 0 20px 15px 25px;
 }
 
 h2 {
@@ -78,4 +82,13 @@ h2 {
     border-bottom: 3px solid #E5E5E5;
     font-weight: normal;
     margin-top: 0;
+}
+
+.skills {
+    max-width: 200px;
+    padding: 0 50px 15px 20px;
+}
+
+.skills ul {
+    list-style-type: disc;
 }
