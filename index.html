@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1>Anna Novikova</h1>
+        <ul class="contacts">
+            <li class="email"> <img src="icons/email.svg" alt="icon email" class="icon">
+                <a href="mailto:example@gmail.com">example@gmail.com</a>
+            </li>
+            <li class="phone"><img src="icons/phone.svg" alt="icon phone" class="icon">073 000 00 01</li>
+            <li class="github"><img src="icons/github.svg" alt="icon github" class="icon"><a href="https://github.com/ANOVIKOVA21">ANOVIKOVA21</a>
+            </li>
+            <li class="telegram"><img src="icons/telegram.svg" alt="icon telegram" class="icon">@AnnyNov
+            </li>
+        </ul>
+    </header>
+    <main>
+        <section class="about_me">
+            <h2>About Me</h2>
+            <p>I am 22. I have the education of an accountant. I worked in different jobs, but none of them brought me pleasure. I hope to find myself in programming and become a professional in my field.</p>
+        </section>
+        <section class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Git, GitHub</li>
+                <li>VS Code</li>
+                <li>Figma</li>
+            </ul>
+        </section>
+        <section class="education">
+            <h2>Education</h2>
+            <ul class="education_list">
+                <li><a href="https://www.youtube.com/playlist?list=PLawfWYMUziZqyUL5QDLVbe3j5BKWj42E5">CS50</a> video course
+                </li>
+                <li>HTML, CSS, JS on the <a href="https://developer.mozilla.org/en-US/docs/Learn/Front-end_web_developer">MDN</a></li>
+                <li>JS tutorial on <a href="https://learn.javascript.ru/">learnjavascript.ru</a></li>
+                <li><a href="https://github.com/azat-io/you-dont-know-js-ru">You Don't Know JS (Book Series)</a></li>
+                <li>JS on the <a href="https://www.freecodecamp.org/learn">FreeCodeCamp</a></li>
+                <li>RS Schools Course «JavaScript/Front-end. Stage 1»</li>
+            </ul>
+
+        </section>
+        <section class="languages">
+            <h2>Languages</h2>
+            <ul>
+                <li>Ukrainian - Native</li>
+                <li>Russian - Free</li>
+                <li>English - A1(almost A2)</li>
+            </ul>
+        </section>
+        <section class="code">
+            <h2>Code Example</h2>
+            <code>
+                <pre>
+    function highAndLow(numbers) {
+        let arr = numbers.split(' ');
+        let nums = [];
+        for (let n of arr) {
+        nums.push(+n)
+        }
+        return Math.max(...nums) + ' ' + Math.min(...nums);
+    }
+            </pre>
+            </code>
+        </section>
+    </main>
+    <footer class="footer">
+        <ul>
+            <li>
+                <a href="https://github.com/ANOVIKOVA21"><img src="icons/github.svg" alt="icon github" class="icon large"></a>
+            </li>
+            <li>
+                <a href="https://rs.school/js/"><img src="icons/rs_school.svg" alt="icon rs_school" class="icon rs"></a>
+            </li>
+            <li><b>2021</b></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
