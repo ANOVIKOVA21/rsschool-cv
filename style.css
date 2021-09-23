@@ -136,7 +136,7 @@ h2 {
 .code pre {
     background-color: #e5e5e5;
     padding: 5px;
-    overflow: scroll;
+    overflow: auto;
 }
 
 .footer {
